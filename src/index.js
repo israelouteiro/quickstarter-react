@@ -14,7 +14,7 @@ import NotFound from './pages/NotFound/NotFound';
 
 
 ReactDOM.render(
-	<BrowserRouter>
+	<BrowserRouter basename="/quickstarter-react/">
         <Switch>
             <Route path="/" exact={true} component={ Login } />
             <Route path="/about" component={ About } />
