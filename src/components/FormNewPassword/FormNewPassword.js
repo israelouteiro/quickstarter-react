@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Form, Icon, Input, Button, Checkbox } from 'antd';
+import { Link } from 'react-router-dom'
 import './FormNewPassword.css';
 
 const FormItem = Form.Item;
@@ -37,7 +38,7 @@ class NormalLoginForm extends React.Component {
           <Button type="primary" htmlType="submit" className="login-form-button">
             Criar
           </Button> 
-          <a className="login-form-forgot" href="/">Voltar</a>
+          <Link to="">Voltar</Link> 
         </FormItem>
       </Form>
     );
