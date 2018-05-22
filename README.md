@@ -1,4 +1,4 @@
-#### developed by israelLabs for Quoda
+#### Developed by israelLabs for Community
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 This project use the [Ant Design](https://ant.design/components) library
